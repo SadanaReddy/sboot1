@@ -1,6 +1,5 @@
 package com.sboot1.service.impl;
 
-import java.io.File;
 import java.util.ArrayList;
 import java.util.InputMismatchException;
 import java.util.List;
@@ -8,14 +7,9 @@ import java.util.List;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
-import com.fasterxml.jackson.core.JsonParser;
-import com.fasterxml.jackson.databind.DeserializationFeature;
-import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fasterxml.jackson.databind.ObjectReader;
 import com.sboot1.model.Faculty;
 import com.sboot1.services.FacultyService;
 
